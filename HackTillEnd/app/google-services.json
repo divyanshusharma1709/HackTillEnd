@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "801822334469",
+    "firebase_url": "https://hacktillend-a4a72.firebaseio.com",
+    "project_id": "hacktillend-a4a72",
+    "storage_bucket": "hacktillend-a4a72.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:801822334469:android:9c6af6f52faa1f12",
+        "android_client_info": {
+          "package_name": "com.drozee.hacktillend"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "801822334469-d3iadscadtn8cio1q7gqdngts0vkktiq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.drozee.hacktillend",
+            "certificate_hash": "07d2dac039eb66429b74c5de8feeebabbc713603"
+          }
+        },
+        {
+          "client_id": "801822334469-i91hh3mp0h544mpcvvrf322tgta5drr4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9b1-YiQ6xSakzuZIwhS9NLci-wLWNYMM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "801822334469-i91hh3mp0h544mpcvvrf322tgta5drr4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

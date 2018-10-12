@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/gradient"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <ImageView
+        android:src="@drawable/eye"
+        android:layout_centerInParent="true"
+        android:layout_width="128sp"
+        android:layout_height="129sp"
+        android:layout_above="@id/camBTN"/>
+    <Button
+        android:layout_centerInParent="true"
+        android:layout_margin="8sp"
+        android:layout_below="@id/camBTN"
+        android:id="@+id/camera"
+        android:background="@drawable/edittext"
+        android:text="Record a Video"
+        android:textColor="#D2691E"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_centerInParent="true"
+        android:layout_margin="8sp"
+        android:textColor="#D2691E"
+        android:background="@drawable/edittext"
+        android:text="Take Photo"
+        android:id="@+id/camBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/voiceRec"
+        android:textColor="#D2691E"
+        android:text="Voice Recorder"
+        android:layout_margin="8sp"
+        android:background="@drawable/edittext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/camera"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>
