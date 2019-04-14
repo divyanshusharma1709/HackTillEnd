@@ -8,3 +8,4 @@
 #### 1. Face Extraction from Video/ Images
 #### 2. Audio recording for emergency situations
 #### 3. Scrape the internet for information on the face detected and send collected information to emergency services
+#### 4. Firebase Integration for Storage and Database Management
